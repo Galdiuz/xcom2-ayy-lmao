@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>6f6c2398-ae42-4378-bd0f-5cec542ec387</Guid>
+    <Name>Ayy Lmao</Name>
+    <Description>======================================== 
+WARNING: THIS MOD CONTAINS PROFANITIES, IMMATURE JOKES, AND DANK MEMES. YOU HAVE BEEN WARNED. 
+======================================== 
+
+This mod replaces the in-game text with different, possibly unfunny, and definitely uninformative text. 
+
+Changes include: Enemy names, Battle fly-overs, Status effects, and Skyranger screen. 
+
+This mod changes the five default classes' ability lists, and thus it might be incompatible with any other mod that does this.</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>Ayy Lmao</AssemblyName>
+    <RootNamespace>Ayy Lmao</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Content\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\AyyLmao\" />
+    <Folder Include="Src\AyyLmao\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ReadMe.txt" />
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Localization\XComGame.int" />
+    <Content Include="Src\AyyLmao\Classes\X2Ability_GrenadierAbilitySet_AyyLmao.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\AyyLmao\Classes\X2Ability_PsiOperativeAbilitySet_AyyLmao.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\AyyLmao\Classes\X2Ability_RangerAbilitySet_AyyLmao.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\AyyLmao\Classes\X2Ability_SharpshooterAbilitySet_AyyLmao.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\AyyLmao\Classes\X2Ability_SpecialistAbilitySet_AyyLmao.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\AyyLmao\Classes\X2DownloadableContentInfo_AyyLmao.uc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>
